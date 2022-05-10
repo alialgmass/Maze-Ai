@@ -88,7 +88,7 @@ namespace WindowsFormsApp2
             if (x == 3)
             {
                 MessageBox.Show("Good Jop");
-                this.Close();
+                Application.Restart();
             }
         }
         private void button91_Click(object sender, EventArgs e)
